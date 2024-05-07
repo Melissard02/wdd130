@@ -38,6 +38,11 @@ aside img {
     width: 200px;
     height: auto;
 }
+aside h2 {
+    position: relative;
+    top: 47px;
+    left: 150px;
+}
 main img {
     float: right;
     width: 150px;
