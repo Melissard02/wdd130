@@ -1,9 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+:root{
+    --primary-color:#515b3a;
+    --secondary-color:#58A4B0;
+    --accent1-color: #f6f7eb;
+    --accent2-color: #f58f29;
 
+    --heading-font: 'lota', serif;
+    --paragraph-font: 'lota', serif;
 
+    --nav-background-color: #f6f7eb;
+    --nav-link-color: #58a4b0;
+    --nav-hover-link-color: #f58f29;
+    --nav-hover-background-color: #f6f7eb;
+}
 
+header{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    padding:20px;
+    background-color: var(--accent1-color);
+}
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
 
+p {
+    padding: 25px;
+}
+
+h1 {
+    position: absolute;
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+    font-size: large;
+}
+
+article {
+    position: absolute;
+}
+
+section {
+    position: 50px;
+}
+
+.hero img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
 
 
