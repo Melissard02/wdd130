@@ -6,13 +6,19 @@
     --accent1-color: #f6f7eb;
     --accent2-color: #f58f29;
 
-    --heading-font: 'lota', serif;
-    --paragraph-font: 'lota', serif;
+    --heading-font: 'Lato', serif;
+    --paragraph-font: 'Lato', serif;
 
     --nav-background-color: #f6f7eb;
     --nav-link-color: #58a4b0;
     --nav-hover-link-color: #f58f29;
     --nav-hover-background-color: #f6f7eb;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -26,30 +32,53 @@ nav{
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    padding: 10px;
+}
+
+nav a {
+    padding: 0 10px;
+    color: var(--nav-link-color);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
 }
 
 h1 {
     position: absolute;
+    top: 20px;
+    left: 20px;
     font-family: var(--heading-font);
-    color: var(--accent2-color);
-    font-size: large;
+    color: var(--accent1-color);
+    -webkit-text-stroke-width: .2px;
+    -webkit-text-stroke-color: var(--secondary-color);
+    font-size: 1.5rem;
+    z-index: 1;
 }
 
 article {
     position: absolute;
+    bottom: 10px;
+    right: 20px;
     background-color: var(--nav-background-color);
-    opacity: 50%;
-}
-
-article img {
-    float: right;
+    opacity: 0.7;
+    padding: 20px;
+    width: 50%;
+    z-index: 1;
 }
 
 p {
     padding: 25px;
+    font-family: var(--paragraph-font);
 }
+
 section {
-    position: 50px;
+    padding: 50px;
+}
+
+h2 {
+    font-family: var(--heading-font)
 }
 
 .hero {
@@ -57,10 +86,10 @@ section {
 }
 
 .hero img {
-    position: relative;
     display: block;
     width: 100%;
     height: auto;
+    z-index: 0;
 }
 
 
