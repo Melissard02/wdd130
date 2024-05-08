@@ -62,15 +62,26 @@ article {
     bottom: 10px;
     right: 20px;
     background-color: var(--nav-background-color);
-    opacity: 0.7;
+    opacity: 0.9;
     padding: 20px;
     width: 50%;
     z-index: 1;
 }
 
-p {
+article img {
+    position: relative;
+    top: 0;
+    right: 0;
+    float: right;
+    margin-left: 10px;
+}
+
+article p {
+    position: relative;
+    float: left;
     padding: 25px;
     font-family: var(--paragraph-font);
+    margin-right: 10px;
 }
 
 section {
