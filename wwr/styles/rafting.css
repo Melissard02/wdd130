@@ -21,18 +21,11 @@ header{
     padding:20px;
     background-color: var(--accent1-color);
 }
+
 nav{
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
-}
-
-section img{
-    position: relative;
-    }
-    
-p {
-    padding: 25px;
 }
 
 h1 {
@@ -52,8 +45,15 @@ article img {
     float: right;
 }
 
+p {
+    padding: 25px;
+}
 section {
     position: 50px;
+}
+
+.hero {
+    position: relative;
 }
 
 .hero img {
