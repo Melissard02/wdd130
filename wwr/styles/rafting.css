@@ -76,10 +76,10 @@ article img {
     margin-left: 10px;
 }
 
-article p {
+p {
     position: relative;
     float: left;
-    padding: 25px;
+    padding: 10px;
     font-family: var(--paragraph-font);
     margin-right: 10px;
 }
