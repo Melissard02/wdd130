@@ -4,19 +4,39 @@
     box-sizing: border-box;
 }
 
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+}
+
 
 nav{
     background-color: steelblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
 nav a {
-    color: white;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
+
 h1 {
     color: steelblue;
+    border-bottom: #65512b;
 }
+
 img {
     width: 150px;
     height: auto;
@@ -24,16 +44,16 @@ img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
+
 p {
     padding: 0;
 }
-main {
-    max-width: 840px;
-}
 aside {
-    width: 20em;
-    text-align: center;
+    width: 20rem;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
 }
 aside img {
     width: 200px;
@@ -44,6 +64,12 @@ aside h2 {
     top: 200px;
     left: 130px;
 }
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
 main img {
     float: right;
     width: 150px;
