@@ -58,7 +58,7 @@
     font-style: italic;
 }
   
-:root{
+:root {
     --primary-color:#515b3a;
     --secondary-color:#58A4B0;
     --accent1-color: #f6f7eb;
@@ -73,41 +73,41 @@
     --nav-hover-background-color: #f6f7eb;
 }
 
-.grid{
+.grid {
     display: grid;
+    grid-template-columns: auto 1fr;
     align-items: center;
-    flex-direction: row;
 }
 
-.flex{
+.flex {
     display: flex;
     align-items: center;
-    flex-direction: row;
 }
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-header{
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
+header {
     font-family: var(--heading-font);
     color: var(--primary-color);
     padding:20px;
     background-color: var(--accent1-color);
 }
 
-nav{
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
-    display: flex;
     padding: 10px;
 }
 
@@ -192,7 +192,6 @@ p {
 
 h2 {
     font-family: var(--heading-font)
-    
 }
 
 footer {
