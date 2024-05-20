@@ -244,9 +244,11 @@ footer img {
     padding: 20px;
     background-color: var(--accent1-color);
     margin-top: 20px;
+    border-radius: 5px;
 }
 
 #user-info label {
+    display: block;
     font-family: var(--paragraph-font);
     color: var(--primary-color);
     margin-bottom: 5px;
@@ -272,7 +274,24 @@ footer img {
 
 #user-info .message textarea {
     height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
 }
 
+#user-info button[type="submit"] {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#user-info button[type="submit"]:hover {
+    background-color: var(--nav-hover-link-color);
+}
 
 
