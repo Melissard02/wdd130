@@ -219,6 +219,60 @@ footer img {
     z-index: 0;
 }
 
+.employee {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.employee figure {
+    text-align: center;
+}
+
+.employee img {
+    max-width: 100%;
+    height: auto;
+}
+
+.employee figcaption {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+    margin-top: 10px;
+}
+
+#user-info {
+    padding: 20px;
+    background-color: var(--accent1-color);
+    margin-top: 20px;
+}
+
+#user-info label {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+    margin-bottom: 5px;
+}
+
+#user-info input[type="text"],
+#user-info textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+#user-info input[type="radio"],
+#user-info input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#user-info .purpose {
+    margin-bottom: 15px;
+}
+
+#user-info .message textarea {
+    height: 100px;
+}
 
 
 
