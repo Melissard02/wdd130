@@ -91,6 +91,7 @@
 }
 
 header {
+    display: grid;
     font-family: var(--heading-font);
     color: var(--primary-color);
     padding:20px;
