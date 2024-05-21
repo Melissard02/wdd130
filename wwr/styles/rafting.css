@@ -172,6 +172,13 @@ h2 {
     gap: 20px;
 }
 
+h3 {
+    display: grid;
+    grid-column: 1 / -1;
+    font-family: 'Lato';
+    gap: 20px;
+}
+
 .adventure {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
