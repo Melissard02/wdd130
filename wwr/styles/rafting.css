@@ -161,18 +161,24 @@ p {
     margin-right: 10px;
 }
 
+h2 {
+    font-family: var(--heading-font)
+}
+
 .history {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: auto;
     padding: 20px;
     gap: 20px;
 }
 
 .adventure {
-    display: flex;
-    flex-direction: row;
-    overflow-x: auto;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    font-family: var(--heading-font);
+    justify-content: center;
+    
 }
 
 .adventure img {
@@ -181,7 +187,6 @@ p {
 }
 
 .adventure figure {
-    margin: 0;
     text-align: center;
 }
 
@@ -191,9 +196,7 @@ p {
     margin-top: 10px;
 }
 
-h2 {
-    font-family: var(--heading-font)
-}
+
 
 footer {
     display: flex;
@@ -201,6 +204,7 @@ footer {
     align-items: center;
     padding: 10px;
     background-color: var(--primary-color);
+    color: var(--accent1-color);
 }
 
 footer img {
