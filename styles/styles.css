@@ -16,7 +16,7 @@ header, .grid, footer {
 
 
 nav{
-    background-color: rgb(200, 156, 44);
+    background-color: rgb(20, 83, 154);
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
@@ -33,14 +33,14 @@ nav a {
 }
 
 h1 {
-    color: rgb(180, 162, 70);
+    color: rgb(65, 94, 209);
     border-bottom: #65512b;
 }
 
 img {
     width: 150px;
     height: auto;
-    border: 1px solid rgb(137, 79, 21);
+    border: 1px solid rgb(20, 73, 164);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
