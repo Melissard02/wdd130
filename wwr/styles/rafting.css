@@ -178,42 +178,60 @@ p {
     margin-right: 10px;
 }
 
-
-
-.history {
-    display: grid;
-    grid-template-rows: auto;
+form {
     padding: 20px;
-    gap: 20px;
+    background-color: var(--accent1-color);
+    margin-top: 20px;
+    border-radius: 5px;
 }
 
-
-
-.adventure {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    font-family: var(--heading-font);
-    justify-content: center;
-    
-}
-
-.adventure img {
-    max-width: 200px;
-    height: auto;
-}
-
-.adventure figure {
-    text-align: center;
-}
-
-.adventure figcaption {
+form label {
+    display: block;
     font-family: var(--paragraph-font);
     color: var(--primary-color);
-    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+}
 
+form input[type="radio"],
+form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+form button[type="submit"] {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+    background-color: var(--nav-hover-link-color);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
 
 footer {
     display: flex;
@@ -241,6 +259,36 @@ footer img {
     z-index: 0;
 }
 
+.history {
+    display: grid;
+    grid-template-rows: auto;
+    padding: 20px;
+    gap: 20px;
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    font-family: var(--heading-font);
+    justify-content: center;
+    
+}
+
+.adventure img {
+    max-width: 200px;
+    height: auto;
+}
+
+.adventure figure {
+    text-align: center;
+}
+
+.adventure figcaption {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+    margin-top: 10px;
+}
 .employee {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -275,74 +323,6 @@ footer img {
     border-radius: 5px;
 }
 
-form {
-    padding: 20px;
-    background-color: var(--accent1-color);
-    margin-top: 20px;
-    border-radius: 5px;
-}
-
-form label {
-    display: block;
-    font-family: var(--paragraph-font);
-    color: var(--primary-color);
-    margin-bottom: 5px;
-}
-
-form input[type="text"],
-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid var(--primary-color);
-    border-radius: 5px;
-}
-
-form input[type="radio"],
-form input[type="checkbox"] {
-    margin-right: 5px;
-}
-
-.purpose {
-    margin-bottom: 15px;
-}
-
-.message textarea {
-    height: 100px;
-    width: 100px;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid var(--primary-color);
-    border-radius: 5px;
-}
-
-form button[type="submit"] {
-    background-color: var(--secondary-color);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-form button[type="submit"]:hover {
-    background-color: var(--nav-hover-link-color);
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-table, th, td {
-    border: 1px solid black;
-}
-
-th, td {
-    padding: 8px;
-    text-align: left;
-}
-
 .tours {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -359,3 +339,21 @@ th, td {
     color: var(--primary-color);
     margin-top: 10px;
 }
+
+.purpose {
+    margin-bottom: 15px;
+}
+
+.message textarea {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+
+
+
+
