@@ -223,15 +223,29 @@ form button[type="submit"]:hover {
 table {
     width: 100%;
     border-collapse: collapse;
-}
-
-table, th, td {
-    border: 1px solid black;
+    border: 1px solid var(--primary-color);
+    margin: 20px 0;
 }
 
 th, td {
     padding: 8px;
-    text-align: left;
+    text-align: center;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+}
+
+th {
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    font-size: 16px;
+}
+
+td{
+    font-size: 14px;
+}
+
+tr{
+    cursor: pointer;
 }
 
 footer {
@@ -333,6 +347,17 @@ footer img {
     margin-top: 10px;
 }
 
+.phone {
+    display: grid;
+    grid-column: 1 / -1;
+    font-family: 'Lato';
+    gap: 20px;
+    justify-content: center;
+}
+
+.address {
+
+}
 .maps {
     width: 100%;
     max-width: 100%;
