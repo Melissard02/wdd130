@@ -244,10 +244,6 @@ td{
     font-size: 14px;
 }
 
-tr{
-    cursor: pointer;
-}
-
 footer {
     display: flex;
     justify-content: flex-end;
@@ -351,13 +347,25 @@ footer img {
     display: grid;
     grid-column: 1 / -1;
     font-family: 'Lato';
-    gap: 20px;
     justify-content: center;
+    margin: 20px;
 }
 
 .address {
-
+    display: grid;
+    grid-column: 1 / -1;
+    font-family: var(--paragraph-font);
+    justify-content: center;
+    margin: 20px;
 }
+
+.address h2{
+    display: grid;
+    grid-column: 1 / -1;
+    font-family: var(--paragraph-font);
+    justify-content: center;
+}
+
 .maps {
     width: 100%;
     max-width: 100%;
@@ -401,8 +409,5 @@ footer img {
     border: 1px solid var(--primary-color);
     border-radius: 5px;
 }
-
-
-
 
 
