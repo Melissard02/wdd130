@@ -178,6 +178,7 @@ p {
     margin-right: 10px;
 }
 
+
 form {
     padding: 20px;
     background-color: var(--accent1-color);
@@ -259,6 +260,28 @@ footer img {
     z-index: 0;
 }
 
+.hero article {
+    font-family: var(--heading-font);
+    color: black;
+    
+}
+
+.hero button {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    background-color: var(--primary-color);
+    border: none;
+    padding: 10px 15px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.hero button:hover {
+    background-color: var(--primary-color);
+    color: var(--nav-hover-link-color);
+}
 .history {
     display: grid;
     grid-template-rows: auto;
@@ -338,6 +361,7 @@ footer img {
     font-family: var(--paragraph-font);
     color: var(--primary-color);
     margin-top: 10px;
+    justify-content: center;
 }
 
 .purpose {
