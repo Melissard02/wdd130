@@ -151,6 +151,18 @@ h3 {
     justify-content: center;
 }
 
+h4{
+    font-family: var(--heading-font);
+}
+
+h5{
+    display: block;
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
 article {
     position: absolute;
     bottom: 10px;
@@ -208,6 +220,7 @@ form input[type="checkbox"] {
 }
 
 form button[type="submit"] {
+    font-family: var(--heading-font);
     background-color: var(--secondary-color);
     color: white;
     border: none;
