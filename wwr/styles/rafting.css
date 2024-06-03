@@ -139,19 +139,7 @@ h1 {
     z-index: 1;
 }
 
-h2 {
-    font-family: var(--heading-font)
-}
-
-h3 {
-    display: grid;
-    grid-column: 1 / -1;
-    font-family: 'Lato';
-    gap: 20px;
-    justify-content: center;
-}
-
-h4{
+.hero h2{
     font-family: var(--heading-font);
     color: var(--accent1-color);
     text-shadow:
@@ -168,21 +156,63 @@ h4{
     padding: 20px;
 }
 
-h5{
-    display: block;
-    font-family: var(--paragraph-font);
-    color: var(--primary-color);
-    font-size: 20px;
-    margin-bottom: 15px;
+.history h2 {
+    font-family: var(--heading-font)
 }
 
-h6 {
+.tourlist h2{
+    display: grid;
+    grid-column: 1 / -1;
+    font-family: 'Lato';
+    gap: 20px;
+    justify-content: center;
+}
+
+.adventure h3 {
+    display: grid;
+    grid-column: 1 / -1;
+    font-family: 'Lato';
+    gap: 20px;
+    justify-content: center;
+}
+
+.phone h3 {
+    display: grid;
+    grid-column: 1 / -1;
+    font-family: var(--paragraph-font);
+    justify-content: center;
+}
+
+.newsletter h3{
+    display: grid;
+    grid-column: 1 / -1;
+    font-family: 'Lato';
+    gap: 20px;
+    justify-content: center;
+}
+
+.companyemail h4{
+    display: grid;
+    grid-column: 1 / -1;
+    font-family: var(--paragraph-font);
+    justify-content: center;
+}
+
+.learnmore h4 {
     display: grid;
     grid-column: 1 / -1;
     font-family: 'Lato';
     font-size: 1.5rem;
     gap: 20px;
     justify-content: center;
+}
+
+.purpose h5{
+    display: block;
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+    font-size: 20px;
+    margin-bottom: 15px;
 }
 
 article {
@@ -485,4 +515,8 @@ footer img {
 .offerings img {
     max-width: 100%;
     height: auto;
+}
+
+.newsletter {
+
 }
